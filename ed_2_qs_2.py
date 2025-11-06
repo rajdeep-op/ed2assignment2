@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 q = 1.0
 c = 1.0
 t_ret=1
-beta=0.999
-a0=0.9
+beta=0.1
+a0=0.3
 
 def r_p(t):
     return np.array([beta*c*t,0,0.5*a0*t**2])
